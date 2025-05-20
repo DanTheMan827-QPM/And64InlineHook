@@ -11,7 +11,12 @@
     "additionalData": {
       "staticLinking": true,
       "overrideSoName": "libAnd64InlineHook.a",
-      "cmake": true
+      "cmake": true,
+      "compileOptions": {
+        "systemIncludes": [
+          "shared"
+        ]
+      }
     }
   },
   "workspace": {
