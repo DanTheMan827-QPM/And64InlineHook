@@ -1,0 +1,29 @@
+{
+  "$schema": "https://raw.githubusercontent.com/QuestPackageManager/QPM.Package/refs/heads/main/qpm.schema.json",
+  "version": "0.4.0",
+  "sharedDir": "shared",
+  "dependenciesDir": "extern",
+  "info": {
+    "name": "And64InlineHook",
+    "id": "And64InlineHook",
+    "version": "0.1.0",
+    "url": "https://github.com/DanTheMan827-QPM/And64InlineHook",
+    "additionalData": {
+      "staticLinking": true,
+      "overrideSoName": "libAnd64InlineHook.a",
+      "cmake": true
+    }
+  },
+  "workspace": {
+    "scripts": {
+      "build": [
+        "pwsh ./scripts/build.ps1"
+      ]
+    },
+    "ndk": "^27.2.12479018",
+    "qmodIncludeDirs": [],
+    "qmodIncludeFiles": [],
+    "qmodOutput": null
+  },
+  "dependencies": []
+}
